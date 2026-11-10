@@ -22,3 +22,15 @@ npm run build
 ```
 
 تُنشأ ملفات الإنتاج في مجلد `dist`.
+
+## النشر على GitHub Pages
+
+يُبنى الموقع ويُنشر تلقائيًا عند الدفع إلى فرع `main` عبر GitHub Actions.
+
+1. افتح إعدادات المستودع على GitHub.
+2. انتقل إلى **Settings > Pages**.
+3. ضمن **Build and deployment**، اختر **GitHub Actions** كمصدر النشر.
+4. ادفع تغييراتك إلى `main`، ثم تابع حالة النشر من تبويب **Actions**.
+
+رابط الموقع:
+https://muhammadwazier.github.io/compareTwoExcelFiles/
